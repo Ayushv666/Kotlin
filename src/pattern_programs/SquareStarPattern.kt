@@ -1,7 +1,7 @@
 package pattern_programs
 
 fun main(){
-    print("Enter the number.")
+    print("Enter the number:")
     val number = readlnOrNull()?.toIntOrNull()
 
     if (number != null){
