@@ -1,7 +1,8 @@
 package pattern_programs
 
 fun main(){
-    val size = 5
+    print("Enter the size:")
+    val size = readlnOrNull()?.toIntOrNull()?:return
 
     for (i in 1..size){
         for (j in 1..(size - i)){
